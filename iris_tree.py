@@ -3,6 +3,7 @@
 
 import pickle 
 import streamlit as st
+import sklearn
 
 model_file = open('./decision_tree_iris.sav', 'rb')
 model = pickle.load(model_file)
